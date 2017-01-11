@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence-diagram version="1.1.9" icons="true" automaticImage="PNG">  
+  <object id="1" language="java" name="com.chat.app.services.SQLiteService" project="APPO_Chat" 
+    file="/APPO_Chat/src/com/chat/app/services/SQLiteService.java" binary="false" label="sqLiteService" type="class" 
+    autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="2">      
+      <position height="262" width="104" x="5" y="89"/>    
+    </execution>    
+    <execution id="4">      
+      <position height="199" width="104" x="5" y="131"/>    
+    </execution>  
+  </object>  
+  <object id="13" language="java" name="java.sql.DriverManager" project="APPO_Chat" 
+    file="C:/Program Files/Java/jdk1.7.0_67/jre/lib/rt.jar" binary="true" label="&lt;static&gt;" type="class" 
+    autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="6">      
+      <position height="21" width="0" x="0" y="162"/>    
+    </execution>  
+  </object>  
+  <object id="14" language="java" name="java.sql.Connection" project="APPO_Chat" 
+    file="C:/Program Files/Java/jdk1.7.0_67/jre/lib/rt.jar" binary="true" label="connection" type="interface" 
+    autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="8">      
+      <position height="21" width="0" x="0" y="204"/>    
+    </execution>  
+  </object>  
+  <object id="15" language="java" name="java.sql.Statement" project="APPO_Chat" 
+    file="C:/Program Files/Java/jdk1.7.0_67/jre/lib/rt.jar" binary="true" label="statement" type="interface" 
+    autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="10">      
+      <position height="21" width="0" x="0" y="246"/>    
+    </execution>    
+    <execution id="12">      
+      <position height="21" width="0" x="0" y="288"/>    
+    </execution>  
+  </object>  
+  <message id="3" operation="init():void" asynchronous="false">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="4"/>  
+  </message>  
+  <message id="5" operation="getConnection(java.lang.String):java.sql.Connection" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="6"/>  
+  </message>  
+  <message id="7" operation="createStatement():java.sql.Statement" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="8"/>  
+  </message>  
+  <message id="9" operation="executeUpdate(java.lang.String):int" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="10"/>  
+  </message>  
+  <message id="11" operation="close():void" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="12"/>  
+  </message>
+</sequence-diagram>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence-diagram version="1.1.9" icons="true" automaticImage="PNG">  
+  <object id="1" language="java" name="com.chat.app.actions.MessageAction" project="APPO_Chat" 
+    file="/APPO_Chat/src/com/chat/app/actions/MessageAction.java" binary="false" label="messageAction" type="class" 
+    autoSize="true">    
+    <position height="-1" width="-1" x="90" y="0"/>    
+    <execution id="2">      
+      <position height="598" width="111" x="5" y="88"/>    
+    </execution>    
+    <execution id="4">      
+      <position height="535" width="111" x="5" y="130"/>    
+    </execution>  
+  </object>  
+  <object id="27" language="java" name="org.jivesoftware.smack.packet.Packet" project="APPO_Chat" 
+    file="/APPO_Chat/lib/smack.jar" binary="true" label="message" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="6">      
+      <position height="21" width="0" x="0" y="161"/>    
+    </execution>    
+    <execution id="8">      
+      <position height="21" width="0" x="0" y="203"/>    
+    </execution>  
+  </object>  
+  <object id="28" language="java" name="com.chat.app.view.MainFrame" project="APPO_Chat" 
+    file="/APPO_Chat/src/com/chat/app/view/MainFrame.java" binary="false" label="object" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="10">      
+      <position height="21" width="0" x="0" y="287"/>    
+    </execution>    
+    <execution id="14">      
+      <position height="21" width="0" x="0" y="371"/>    
+    </execution>    
+    <execution id="18">      
+      <position height="21" width="0" x="0" y="455"/>    
+    </execution>    
+    <execution id="22">      
+      <position height="21" width="0" x="0" y="539"/>    
+    </execution>    
+    <execution id="24">      
+      <position height="21" width="0" x="0" y="581"/>    
+    </execution>  
+  </object>  
+  <object id="29" language="java" name="java.util.Date" project="APPO_Chat" 
+    file="C:/Program Files/Java/jre1.8.0_91/lib/rt.jar" binary="true" label="date" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="12">      
+      <position height="21" width="0" x="0" y="329"/>    
+    </execution>  
+  </object>  
+  <object id="30" language="java" name="com.chat.app.beans.JEditorPaneX" project="APPO_Chat" 
+    file="/APPO_Chat/src/com/chat/app/beans/JEditorPaneX.java" binary="false" label="messagesEditorPaneX" type="class" 
+    autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="16">      
+      <position height="21" width="0" x="0" y="413"/>    
+    </execution>  
+  </object>  
+  <object id="31" language="java" name="java.awt.Component" project="APPO_Chat" 
+    file="C:/Program Files/Java/jre1.8.0_91/lib/rt.jar" binary="true" label="friendList" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="20">      
+      <position height="21" width="0" x="0" y="497"/>    
+    </execution>  
+  </object>  
+  <object id="32" language="java" name="com.chat.app.services.SQLiteService" project="APPO_Chat" 
+    file="/APPO_Chat/src/com/chat/app/services/SQLiteService.java" binary="false" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="26">      
+      <position height="21" width="0" x="0" y="623"/>    
+    </execution>  
+  </object>  
+  <message id="3" 
+    operation="executeprocessMessage(com.chat.app.view.MainFrame,org.jivesoftware.smack.Chat,org.jivesoftware.smack.packet.Message,java.lang.String):void" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="4"/>  
+  </message>  
+  <message id="5" operation="getFrom():java.lang.String" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="6"/>  
+  </message>  
+  <message id="7" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="8"/>  
+  </message>  
+  <message id="9" operation="getSelectedUser():java.lang.String" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="10"/>  
+  </message>  
+  <message id="11" operation="Date()" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="12"/>  
+  </message>  
+  <message id="13" operation="getMessagesEditorPaneX():com.chat.app.beans.JEditorPaneX" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="14"/>  
+  </message>  
+  <message id="15" operation="appendHeMessage(java.lang.String,java.lang.String,java.util.Date,boolean):void" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="16"/>  
+  </message>  
+  <message id="17" operation="getFriendList():javax.swing.JList" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="18"/>  
+  </message>  
+  <message id="19" operation="repaint():void" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="20"/>  
+  </message>  
+  <message id="21" operation="getUser():java.lang.String" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="22"/>  
+  </message>  
+  <message id="23" operation="getSqLiteService():com.chat.app.services.SQLiteService" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="24"/>  
+  </message>  
+  <message id="25" 
+    operation="insertMessage(java.lang.String,java.lang.String,java.lang.String,boolean,java.util.Date):void" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="26"/>  
+  </message>
+</sequence-diagram>

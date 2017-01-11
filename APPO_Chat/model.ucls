@@ -1,0 +1,957 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.9" icons="true" automaticImage="PNG" always-add-relationships="false" generalizations="true" 
+  realizations="true" associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="com.chat.app.actions.AddAction" project="APPO_Chat" 
+    file="/APPO_Chat/src/com/chat/app/actions/AddAction.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="267" x="1237" y="2092"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="com.chat.app.actions.MessageAction" project="APPO_Chat" 
+    file="/APPO_Chat/src/com/chat/app/actions/MessageAction.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="335" x="311" y="2694"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="com.chat.app.actions.LogInCancelAction" project="APPO_Chat" 
+    file="/APPO_Chat/src/com/chat/app/actions/LogInCancelAction.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="295" x="3690" y="2694"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="com.chat.app.actions.CancelAction" project="APPO_Chat" 
+    file="/APPO_Chat/src/com/chat/app/actions/CancelAction.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="243" x="2386" y="2694"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="com.chat.app.actions.Cmds" project="APPO_Chat" 
+    file="/APPO_Chat/src/com/chat/app/actions/Cmds.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="117" x="728" y="4376"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="com.chat.app.actions.FriendListAction" project="APPO_Chat" 
+    file="/APPO_Chat/src/com/chat/app/actions/FriendListAction.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="171" width="318" x="2669" y="2694"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="com.chat.app.actions.SendAction" project="APPO_Chat" 
+    file="/APPO_Chat/src/com/chat/app/actions/SendAction.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="240" x="1826" y="2694"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="com.chat.app.actions.LogInAction" project="APPO_Chat" 
+    file="/APPO_Chat/src/com/chat/app/actions/LogInAction.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="243" x="3407" y="2694"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="com.chat.app.actions.FriendListColorAction" project="APPO_Chat" 
+    file="/APPO_Chat/src/com/chat/app/actions/FriendListColorAction.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="477" x="1464" y="4376"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="10" language="java" name="com.chat.app.actions.CancelAddAction" project="APPO_Chat" 
+    file="/APPO_Chat/src/com/chat/app/actions/CancelAddAction.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="267" x="1134" y="2694"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="11" language="java" name="com.chat.app.actions.AddCancelAction" project="APPO_Chat" 
+    file="/APPO_Chat/src/com/chat/app/actions/AddCancelAction.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="319" x="3027" y="2694"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="12" language="java" name="com.chat.app.actions.menu.JMenuExitAction" project="APPO_Chat" 
+    file="/APPO_Chat/src/com/chat/app/actions/menu/JMenuExitAction.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="240" x="728" y="2694"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="13" language="java" name="com.chat.app.actions.menu.JMenuAddFriendAction" project="APPO_Chat" 
+    file="/APPO_Chat/src/com/chat/app/actions/menu/JMenuAddFriendAction.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="240" x="1544" y="2092"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="14" language="java" name="com.chat.app.actions.menu.JMenuDeleteFriendAction" project="APPO_Chat" 
+    file="/APPO_Chat/src/com/chat/app/actions/menu/JMenuDeleteFriendAction.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="240" x="936" y="2092"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="15" language="java" name="com.chat.app.actions.menu.JMenuLogOutAction" project="APPO_Chat" 
+    file="/APPO_Chat/src/com/chat/app/actions/menu/JMenuLogOutAction.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="240" x="1525" y="2694"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="16" language="java" name="com.chat.app.beans.JEditorPaneX" project="APPO_Chat" 
+    file="/APPO_Chat/src/com/chat/app/beans/JEditorPaneX.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="477" width="276" x="911" y="4376"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="17" language="java" name="com.chat.app.beans.MessageSQL" project="APPO_Chat" 
+    file="/APPO_Chat/src/com/chat/app/beans/MessageSQL.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="405" width="269" x="2761" y="5302"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="18" language="java" name="com.chat.app.services.XmppManager.MyMessageListener" project="APPO_Chat" 
+    file="/APPO_Chat/src/com/chat/app/services/XmppManager.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="210" x="61" y="2694"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="19" language="java" name="com.chat.app.services.XmppManager" project="APPO_Chat" 
+    file="/APPO_Chat/src/com/chat/app/services/XmppManager.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="387" width="283" x="748" y="2231"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="20" language="java" name="com.chat.app.services.SQLiteService" project="APPO_Chat" 
+    file="/APPO_Chat/src/com/chat/app/services/SQLiteService.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="369" width="284" x="1983" y="4893"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="21" language="java" name="com.chat.app.utils.StringUtils" project="APPO_Chat" 
+    file="/APPO_Chat/src/com/chat/app/utils/StringUtils.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="207" width="223" x="631" y="4893"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="22" language="java" name="com.chat.app.view.AddFriendDialog" project="APPO_Chat" 
+    file="/APPO_Chat/src/com/chat/app/view/AddFriendDialog.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="423" width="178" x="1265" y="2231"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="23" language="java" name="com.chat.app.view.SelectedListCellRenderer" project="APPO_Chat" 
+    file="/APPO_Chat/src/com/chat/app/view/SelectedListCellRenderer.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="391" x="1843" y="554"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="24" language="java" name="com.chat.app.view.LoginDialog" project="APPO_Chat" 
+    file="/APPO_Chat/src/com/chat/app/view/LoginDialog.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="405" width="176" x="2928" y="4376"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="25" language="java" name="com.chat.app.view.MainFrame" project="APPO_Chat" 
+    file="/APPO_Chat/src/com/chat/app/view/MainFrame.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="1431" width="259" x="1464" y="2905"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="26" language="java" name="com.cmd.CmdAction" project="CMD" file="/CMD/src/com/cmd/CmdAction.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="81" width="193" x="1052" y="2905"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="27" language="java" name="java.lang.Object" project="APPO_Chat" 
+    file="C:/Program Files/Java/jdk1.7.0_67/jre/lib/rt.jar" binary="true" corner="BOTTOM_RIGHT">    
+    <position height="315" width="138" x="1585" y="1737"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="28" language="java" name="com.cmd.CmdKey" project="CMD" file="/CMD/src/com/cmd/CmdKey.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="245" x="3196" y="2905"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="29" language="java" name="com.cmd.CmdMouse" project="CMD" file="/CMD/src/com/cmd/CmdMouse.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="271" x="2843" y="2905"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="30" language="java" name="com.cmd.CmdMessage" project="CMD" file="/CMD/src/com/cmd/CmdMessage.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="81" width="288" x="372" y="2905"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="31" language="java" name="org.jivesoftware.smackx.ChatStateListener" project="APPO_Chat" 
+    file="/APPO_Chat/lib/smackx.jar" binary="true" corner="BOTTOM_RIGHT">    
+    <position height="81" width="196" x="61" y="2905"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="32" language="java" name="javax.swing.JEditorPane" project="APPO_Chat" 
+    file="C:/Program Files/Java/jdk1.7.0_67/jre/lib/rt.jar" binary="true" corner="BOTTOM_RIGHT">    
+    <position height="1143" width="332" x="1471" y="554"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="33" language="java" name="javax.swing.JDialog" project="APPO_Chat" 
+    file="C:/Program Files/Java/jdk1.7.0_67/jre/lib/rt.jar" binary="true" corner="BOTTOM_RIGHT">    
+    <position height="981" width="314" x="2295" y="554"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="34" language="java" name="javax.swing.DefaultListCellRenderer" project="APPO_Chat" 
+    file="C:/Program Files/Java/jdk1.7.0_67/jre/lib/rt.jar" binary="true" corner="BOTTOM_RIGHT">    
+    <position height="477" width="409" x="2255" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <dependency id="35">    
+    <bendpoint x="1494" y="2694"/>    
+    <bendpoint x="1494" y="2231"/>    
+    <end type="SOURCE" refId="25"/>    
+    <end type="TARGET" refId="13"/>  
+  </dependency>  
+  <dependency id="36">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="19"/>  
+  </dependency>  
+  <dependency id="37">    
+    <end type="SOURCE" refId="25"/>    
+    <end type="TARGET" refId="6"/>  
+  </dependency>  
+  <generalization id="38">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="27"/>  
+  </generalization>  
+  <realization id="39">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="30"/>  
+  </realization>  
+  <dependency id="40">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="25"/>  
+  </dependency>  
+  <association id="41">    
+    <bendpoint x="1971" y="4376"/>    
+    <end type="SOURCE" refId="25" navigable="false">      
+      <attribute id="42" name="sqLiteService">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="43" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="20" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="44">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="22"/>  
+  </dependency>  
+  <realization id="45">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="26"/>  
+  </realization>  
+  <generalization id="46">    
+    <bendpoint x="832" y="2231"/>    
+    <bendpoint x="832" y="2092"/>    
+    <end type="SOURCE" refId="18"/>    
+    <end type="TARGET" refId="27"/>  
+  </generalization>  
+  <association id="47">    
+    <bendpoint x="1019" y="2694"/>    
+    <end type="SOURCE" refId="19" navigable="false">      
+      <attribute id="48" name="mainFrame">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="49" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="25" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="50">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="20"/>  
+  </dependency>  
+  <association id="51">    
+    <end type="SOURCE" refId="32" navigable="false">      
+      <attribute id="52" name="kitTypeRegistryKey">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="53" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="27" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="54">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="28"/>  
+  </realization>  
+  <dependency id="55">    
+    <bendpoint x="1082" y="2231"/>    
+    <bendpoint x="1082" y="2694"/>    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="25"/>  
+  </dependency>  
+  <dependency id="56">    
+    <bendpoint x="320" y="2905"/>    
+    <bendpoint x="320" y="4376"/>    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="20"/>  
+  </dependency>  
+  <association id="57">    
+    <end type="SOURCE" refId="25" navigable="false">      
+      <attribute id="58" name="messagesEditorPaneX">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="59" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="16" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="60">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="25"/>  
+  </dependency>  
+  <realization id="61">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="26"/>  
+  </realization>  
+  <dependency id="62">    
+    <bendpoint x="2812" y="2905"/>    
+    <end type="SOURCE" refId="24"/>    
+    <end type="TARGET" refId="4"/>  
+  </dependency>  
+  <generalization id="63">    
+    <bendpoint x="9" y="4376"/>    
+    <bendpoint x="9" y="2905"/>    
+    <bendpoint x="9" y="2694"/>    
+    <bendpoint x="51" y="2231"/>    
+    <bendpoint x="51" y="2092"/>    
+    <end type="SOURCE" refId="21"/>    
+    <end type="TARGET" refId="27"/>  
+  </generalization>  
+  <association id="64">    
+    <end type="SOURCE" refId="24" navigable="false">      
+      <attribute id="65" name="mainFrame">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="66" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="25" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="67">    
+    <bendpoint x="717" y="2231"/>    
+    <bendpoint x="697" y="2694"/>    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="26"/>  
+  </realization>  
+  <dependency id="68">    
+    <end type="SOURCE" refId="25"/>    
+    <end type="TARGET" refId="12"/>  
+  </dependency>  
+  <generalization id="69">    
+    <bendpoint x="4036" y="2905"/>    
+    <bendpoint x="4036" y="2694"/>    
+    <bendpoint x="4057" y="2231"/>    
+    <bendpoint x="4057" y="2092"/>    
+    <bendpoint x="4057" y="1737"/>    
+    <end type="SOURCE" refId="24"/>    
+    <end type="TARGET" refId="33"/>  
+  </generalization>  
+  <dependency id="70">    
+    <bendpoint x="1056" y="4376"/>    
+    <end type="SOURCE" refId="25"/>    
+    <end type="TARGET" refId="21"/>  
+  </dependency>  
+  <dependency id="71">    
+    <end type="SOURCE" refId="16"/>    
+    <end type="TARGET" refId="21"/>  
+  </dependency>  
+  <generalization id="72">    
+    <bendpoint x="4015" y="4376"/>    
+    <bendpoint x="4015" y="2905"/>    
+    <bendpoint x="4015" y="2694"/>    
+    <bendpoint x="4015" y="2231"/>    
+    <bendpoint x="4015" y="2092"/>    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="27"/>  
+  </generalization>  
+  <dependency id="73">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="25"/>  
+  </dependency>  
+  <generalization id="74">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="27"/>  
+  </generalization>  
+  <dependency id="75">    
+    <bendpoint x="2236" y="2905"/>    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="24"/>  
+  </dependency>  
+  <dependency id="76">    
+    <bendpoint x="1473" y="2231"/>    
+    <bendpoint x="1473" y="2694"/>    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="25"/>  
+  </dependency>  
+  <realization id="77">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="28"/>  
+  </realization>  
+  <association id="78">    
+    <bendpoint x="1452" y="2694"/>    
+    <end type="SOURCE" refId="22" navigable="false">      
+      <attribute id="79" name="mainFrame">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="80" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="25" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="81">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="25"/>  
+  </dependency>  
+  <realization id="82">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="29"/>  
+  </realization>  
+  <generalization id="83">    
+    <bendpoint x="696" y="2231"/>    
+    <bendpoint x="696" y="2092"/>    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="27"/>  
+  </generalization>  
+  <generalization id="84">    
+    <bendpoint x="30" y="2905"/>    
+    <bendpoint x="30" y="2694"/>    
+    <bendpoint x="30" y="2231"/>    
+    <bendpoint x="30" y="2092"/>    
+    <bendpoint x="30" y="1737"/>    
+    <end type="SOURCE" refId="16"/>    
+    <end type="TARGET" refId="32"/>  
+  </generalization>  
+  <dependency id="85">    
+    <end type="SOURCE" refId="25"/>    
+    <end type="TARGET" refId="9"/>  
+  </dependency>  
+  <dependency id="86">    
+    <bendpoint x="1103" y="2694"/>    
+    <bendpoint x="1103" y="2231"/>    
+    <end type="SOURCE" refId="25"/>    
+    <end type="TARGET" refId="14"/>  
+  </dependency>  
+  <dependency id="87">    
+    <bendpoint x="299" y="2905"/>    
+    <bendpoint x="299" y="4376"/>    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="21"/>  
+  </dependency>  
+  <dependency id="88">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="22"/>  
+  </dependency>  
+  <generalization id="89">    
+    <bendpoint x="2170" y="2231"/>    
+    <bendpoint x="2170" y="2092"/>    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="27"/>  
+  </generalization>  
+  <dependency id="90">    
+    <bendpoint x="1234" y="2231"/>    
+    <bendpoint x="1431" y="2694"/>    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="25"/>  
+  </dependency>  
+  <dependency id="91">    
+    <bendpoint x="341" y="2905"/>    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="16"/>  
+  </dependency>  
+  <generalization id="92">    
+    <bendpoint x="1816" y="2231"/>    
+    <bendpoint x="1816" y="2092"/>    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="27"/>  
+  </generalization>  
+  <dependency id="93">    
+    <end type="SOURCE" refId="22"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <realization id="94">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="26"/>  
+  </realization>  
+  <nesting id="95">    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="18"/>  
+  </nesting>  
+  <association id="96">    
+    <end type="SOURCE" refId="32" navigable="false">      
+      <attribute id="97" name="pageProperties">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="98" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="27" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="99">    
+    <bendpoint x="3418" y="2231"/>    
+    <bendpoint x="3418" y="2092"/>    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="27"/>  
+  </generalization>  
+  <dependency id="100">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="25"/>  
+  </dependency>  
+  <generalization id="101">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="27"/>  
+  </generalization>  
+  <dependency id="102">    
+    <bendpoint x="3144" y="2905"/>    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="24"/>  
+  </dependency>  
+  <realization id="103">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="26"/>  
+  </realization>  
+  <association id="104">    
+    <end type="SOURCE" refId="25" navigable="false">      
+      <attribute id="105" name="loginDialog">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="106" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="24" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="107">    
+    <bendpoint x="4057" y="4893"/>    
+    <bendpoint x="4057" y="4376"/>    
+    <bendpoint x="4057" y="2905"/>    
+    <bendpoint x="4057" y="2694"/>    
+    <bendpoint x="4036" y="2231"/>    
+    <bendpoint x="4036" y="2092"/>    
+    <end type="SOURCE" refId="17"/>    
+    <end type="TARGET" refId="27"/>  
+  </generalization>  
+  <dependency id="108">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="25"/>  
+  </dependency>  
+  <generalization id="109">    
+    <bendpoint x="1206" y="2231"/>    
+    <bendpoint x="1206" y="2092"/>    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="27"/>  
+  </generalization>  
+  <dependency id="110">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="22"/>  
+  </dependency>  
+  <realization id="111">    
+    <bendpoint x="1061" y="2231"/>    
+    <bendpoint x="998" y="2694"/>    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="26"/>  
+  </realization>  
+  <dependency id="112">    
+    <bendpoint x="1377" y="2905"/>    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="16"/>  
+  </dependency>  
+  <dependency id="113">    
+    <bendpoint x="1992" y="2905"/>    
+    <bendpoint x="1992" y="4376"/>    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="20"/>  
+  </dependency>  
+  <association id="114">    
+    <end type="SOURCE" refId="32" navigable="false">      
+      <attribute id="115" name="kitLoaderRegistryKey">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="116" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="27" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="117">    
+    <bendpoint x="957" y="2231"/>    
+    <bendpoint x="957" y="2092"/>    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="27"/>  
+  </generalization>  
+  <association id="118">    
+    <end type="SOURCE" refId="5" navigable="false">      
+      <attribute id="119" name="object">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="120" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="25" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="121">    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="17"/>  
+  </dependency>  
+  <generalization id="122">    
+    <bendpoint x="905" y="2092"/>    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="27"/>  
+  </generalization>  
+  <dependency id="123">    
+    <bendpoint x="2264" y="554"/>    
+    <end type="SOURCE" refId="34"/>    
+    <end type="TARGET" refId="27"/>  
+  </dependency>  
+  <realization id="124">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="26"/>  
+  </realization>  
+  <dependency id="125">    
+    <bendpoint x="1799" y="2905"/>    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="16"/>  
+  </dependency>  
+  <generalization id="126">    
+    <bendpoint x="3397" y="2231"/>    
+    <bendpoint x="3397" y="2092"/>    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="27"/>  
+  </generalization>  
+  <generalization id="127">    
+    <bendpoint x="690" y="2905"/>    
+    <bendpoint x="676" y="2694"/>    
+    <bendpoint x="675" y="2231"/>    
+    <bendpoint x="675" y="2092"/>    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="27"/>  
+  </generalization>  
+  <dependency id="128">    
+    <bendpoint x="2728" y="2905"/>    
+    <bendpoint x="2728" y="4376"/>    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="20"/>  
+  </dependency>  
+  <dependency id="129">    
+    <end type="SOURCE" refId="23"/>    
+    <end type="TARGET" refId="27"/>  
+  </dependency>  
+  <dependency id="130">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="22"/>  
+  </dependency>  
+  <dependency id="131">    
+    <bendpoint x="3492" y="2905"/>    
+    <end type="SOURCE" refId="24"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <dependency id="132">    
+    <bendpoint x="2770" y="2905"/>    
+    <bendpoint x="2770" y="4376"/>    
+    <bendpoint x="2770" y="4893"/>    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="17"/>  
+  </dependency>  
+  <generalization id="133">    
+    <bendpoint x="1774" y="2231"/>    
+    <bendpoint x="1774" y="2092"/>    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="27"/>  
+  </generalization>  
+  <dependency id="134">    
+    <end type="SOURCE" refId="22"/>    
+    <end type="TARGET" refId="11"/>  
+  </dependency>  
+  <dependency id="135">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="25"/>  
+  </dependency>  
+  <generalization id="136">    
+    <bendpoint x="2707" y="2905"/>    
+    <bendpoint x="3376" y="2694"/>    
+    <bendpoint x="3376" y="2231"/>    
+    <bendpoint x="3439" y="2092"/>    
+    <bendpoint x="3439" y="1737"/>    
+    <bendpoint x="3439" y="554"/>    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="34"/>  
+  </generalization>  
+  <dependency id="137">    
+    <end type="SOURCE" refId="22"/>    
+    <end type="TARGET" refId="10"/>  
+  </dependency>  
+  <dependency id="138">    
+    <bendpoint x="2791" y="2905"/>    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="24"/>  
+  </dependency>  
+  <generalization id="139">    
+    <bendpoint x="2128" y="2231"/>    
+    <bendpoint x="2128" y="2092"/>    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="27"/>  
+  </generalization>  
+  <dependency id="140">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="21"/>  
+  </dependency>  
+  <association id="141">    
+    <bendpoint x="1040" y="2694"/>    
+    <end type="SOURCE" refId="25" navigable="false">      
+      <attribute id="142" name="xmppManager">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="143" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="19" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="144">    
+    <bendpoint x="1227" y="2231"/>    
+    <bendpoint x="1061" y="2694"/>    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="26"/>  
+  </realization>  
+  <association id="145">    
+    <end type="SOURCE" refId="32" navigable="false">      
+      <attribute id="146" name="kitRegistryKey">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="147" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="27" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="148">    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="2"/>  
+  </dependency>  
+  <generalization id="149">    
+    <bendpoint x="1753" y="2092"/>    
+    <bendpoint x="1753" y="1737"/>    
+    <end type="SOURCE" refId="22"/>    
+    <end type="TARGET" refId="33"/>  
+  </generalization>  
+  <association id="150">    
+    <bendpoint x="2107" y="1446"/>    
+    <end type="SOURCE" refId="33" navigable="false">      
+      <attribute id="151" name="defaultLookAndFeelDecoratedKey">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="152" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="27" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="153">    
+    <end type="SOURCE" refId="23"/>    
+    <end type="TARGET" refId="34"/>  
+  </generalization>  
+  <dependency id="154">    
+    <end type="SOURCE" refId="25"/>    
+    <end type="TARGET" refId="15"/>  
+  </dependency>  
+  <realization id="155">    
+    <end type="SOURCE" refId="18"/>    
+    <end type="TARGET" refId="31"/>  
+  </realization>  
+  <association id="156">    
+    <end type="SOURCE" refId="25" navigable="false">      
+      <attribute id="157" name="cmds">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="158" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="5" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="159">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="19"/>  
+  </dependency>  
+  <dependency id="160">    
+    <bendpoint x="737" y="2905"/>    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <dependency id="161">    
+    <bendpoint x="3165" y="2905"/>    
+    <end type="SOURCE" refId="24"/>    
+    <end type="TARGET" refId="8"/>  
+  </dependency>  
+  <realization id="162">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="26"/>  
+  </realization>  
+  <dependency id="163">    
+    <end type="SOURCE" refId="25"/>    
+    <end type="TARGET" refId="7"/>  
+  </dependency>  
+  <generalization id="164">    
+    <bendpoint x="1795" y="2694"/>    
+    <bendpoint x="1795" y="2231"/>    
+    <bendpoint x="1795" y="2092"/>    
+    <end type="SOURCE" refId="25"/>    
+    <end type="TARGET" refId="27"/>  
+  </generalization>  
+  <dependency id="165">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="25"/>  
+  </dependency>  
+  <generalization id="166">    
+    <bendpoint x="2149" y="2231"/>    
+    <bendpoint x="2149" y="2092"/>    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="27"/>  
+  </generalization>  
+  <dependency id="167">    
+    <bendpoint x="3471" y="2905"/>    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="24"/>  
+  </dependency>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

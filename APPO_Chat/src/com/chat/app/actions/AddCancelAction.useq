@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence-diagram version="1.1.9" icons="true" automaticImage="PNG">  
+  <object id="1" language="java" name="com.chat.app.actions.AddCancelAction" project="APPO_Chat" 
+    file="/APPO_Chat/src/com/chat/app/actions/AddCancelAction.java" binary="false" label="addCancelAction" type="class" 
+    autoSize="true">    
+    <position height="-1" width="-1" x="209" y="0"/>    
+    <execution id="2">      
+      <position height="430" width="120" x="5" y="126"/>    
+    </execution>    
+    <execution id="4">      
+      <position height="367" width="120" x="5" y="168"/>    
+    </execution>  
+  </object>  
+  <object id="21" language="java" name="java.awt.event.KeyEvent" project="CMD" 
+    file="C:/Program Files/Java/jdk1.7.0_67/jre/lib/rt.jar" binary="true" label="e" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="6">      
+      <position height="21" width="0" x="0" y="199"/>    
+    </execution>    
+    <execution id="8">      
+      <position height="21" width="0" x="0" y="241"/>    
+    </execution>    
+    <execution id="14">      
+      <position height="21" width="0" x="0" y="367"/>    
+    </execution>    
+    <execution id="16">      
+      <position height="21" width="0" x="0" y="409"/>    
+    </execution>  
+  </object>  
+  <object id="22" language="java" name="com.chat.app.view.AddFriendDialog" project="APPO_Chat" 
+    file="/APPO_Chat/src/com/chat/app/view/AddFriendDialog.java" binary="false" label="object" type="class" 
+    autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="10">      
+      <position height="21" width="0" x="0" y="283"/>    
+    </execution>    
+    <execution id="18">      
+      <position height="21" width="0" x="0" y="451"/>    
+    </execution>  
+  </object>  
+  <object id="23" language="java" name="javax.swing.JButton" project="APPO_Chat" 
+    file="C:/Program Files/Java/jdk1.7.0_67/jre/lib/rt.jar" binary="true" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="12">      
+      <position height="21" width="0" x="0" y="325"/>    
+    </execution>  
+  </object>  
+  <object id="24" language="java" name="javax.swing.JButton" project="APPO_Chat" 
+    file="C:/Program Files/Java/jdk1.7.0_67/jre/lib/rt.jar" binary="true" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="20">      
+      <position height="21" width="0" x="0" y="493"/>    
+    </execution>  
+  </object>  
+  <message id="3" 
+    operation="executeKeyPressed(com.chat.app.view.AddFriendDialog,java.awt.event.KeyEvent,java.lang.String):void" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="4"/>  
+  </message>  
+  <message id="5" operation="getKeyCode():int" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="6"/>  
+  </message>  
+  <message id="7" operation="consume():void" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="8"/>  
+  </message>  
+  <message id="9" operation="getBtnAdd():javax.swing.JButton" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="10"/>  
+  </message>  
+  <message id="11" operation="doClick():void" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="12"/>  
+  </message>  
+  <message id="13" operation="getKeyCode():int" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="14"/>  
+  </message>  
+  <message id="15" operation="consume():void" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="16"/>  
+  </message>  
+  <message id="17" operation="getBtnCancel():javax.swing.JButton" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="18"/>  
+  </message>  
+  <message id="19" operation="doClick():void" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="20"/>  
+  </message>
+</sequence-diagram>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence-diagram version="1.1.9" icons="true" automaticImage="PNG">  
+  <object id="1" language="java" name="com.chat.app.actions.LogInAction" project="APPO_Chat" 
+    file="/APPO_Chat/src/com/chat/app/actions/LogInAction.java" binary="false" label="logInAction" type="class" 
+    autoSize="true">    
+    <position height="-1" width="-1" x="248" y="0"/>    
+    <execution id="2">      
+      <position height="514" width="97" x="5" y="78"/>    
+    </execution>    
+    <execution id="4">      
+      <position height="451" width="97" x="5" y="120"/>    
+    </execution>  
+  </object>  
+  <object id="25" language="java" name="com.chat.app.view.LoginDialog" project="APPO_Chat" 
+    file="/APPO_Chat/src/com/chat/app/view/LoginDialog.java" binary="false" label="object" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="6">      
+      <position height="21" width="0" x="0" y="151"/>    
+    </execution>    
+    <execution id="8">      
+      <position height="21" width="0" x="0" y="193"/>    
+    </execution>    
+    <execution id="12">      
+      <position height="21" width="0" x="0" y="277"/>    
+    </execution>    
+    <execution id="16">      
+      <position height="21" width="0" x="0" y="361"/>    
+    </execution>  
+  </object>  
+  <object id="26" language="java" name="com.chat.app.view.MainFrame" project="APPO_Chat" 
+    file="/APPO_Chat/src/com/chat/app/view/MainFrame.java" binary="false" label="mainFrame" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="10">      
+      <position height="21" width="0" x="0" y="235"/>    
+    </execution>    
+    <execution id="14">      
+      <position height="21" width="0" x="0" y="319"/>    
+    </execution>    
+    <execution id="18">      
+      <position height="21" width="0" x="0" y="403"/>    
+    </execution>  
+  </object>  
+  <object id="27" language="java" name="java.awt.Frame" project="APPO_Chat" 
+    file="C:/Program Files/Java/jdk1.7.0_67/jre/lib/rt.jar" binary="true" label="frame" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="20">      
+      <position height="21" width="0" x="0" y="445"/>    
+    </execution>    
+    <execution id="22">      
+      <position height="21" width="0" x="0" y="487"/>    
+    </execution>  
+  </object>  
+  <object id="28" language="java" name="javax.swing.JOptionPane" project="APPO_Chat" 
+    file="C:/Program Files/Java/jdk1.7.0_67/jre/lib/rt.jar" binary="true" label="&lt;static&gt;" type="class" 
+    autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="24">      
+      <position height="21" width="0" x="0" y="529"/>    
+    </execution>  
+  </object>  
+  <message id="3" operation="execute(com.chat.app.view.LoginDialog,java.awt.event.ActionEvent,java.lang.String):void" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="4"/>  
+  </message>  
+  <message id="5" operation="getUsername():java.lang.String" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="6"/>  
+  </message>  
+  <message id="7" operation="getPassword():java.lang.String" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="8"/>  
+  </message>  
+  <message id="9" operation="MainFrame(com.chat.app.view.LoginDialog,java.lang.String,java.lang.String)" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="10"/>  
+  </message>  
+  <message id="11" operation="setMainFrame(com.chat.app.view.MainFrame):void" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="12"/>  
+  </message>  
+  <message id="13" operation="initialize():void" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="14"/>  
+  </message>  
+  <message id="15" operation="setVisible(boolean):void" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="16"/>  
+  </message>  
+  <message id="17" operation="getFrame():javax.swing.JFrame" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="18"/>  
+  </message>  
+  <message id="19" operation="setTitle(java.lang.String):void" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="20"/>  
+  </message>  
+  <message id="21" operation="setVisible(boolean):void" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="22"/>  
+  </message>  
+  <message id="23" operation="showMessageDialog(java.awt.Component,java.lang.Object,java.lang.String,int):void" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="24"/>  
+  </message>
+</sequence-diagram>
